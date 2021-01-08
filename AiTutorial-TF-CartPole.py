@@ -1,7 +1,7 @@
 '''
 Ian MacMillan 
 January 2021
-Based on Github: tankala/ ai tutorials
+Based on Github: tankala
 See https://blog.tanka.la/2018/10/19/build-your-first-ai-game-bot-using-openai-gym-keras-tensorflow-in-python/
 '''
 
@@ -110,11 +110,3 @@ for each_game in tqdm(range(num_tests)):
 #print(scores)
 print('Average Score:',sum(scores)/len(scores))
 #print('choice 1:{}  choice 0:{}'.format(choices.count(1)/len(choices),choices.count(0)/len(choices)))
-
-
-
-
-
-
-
-
