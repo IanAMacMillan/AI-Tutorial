@@ -91,7 +91,7 @@ for each_game in tqdm(range(num_tests)):
     score = 0
     prev_obs = []
     for step_index in range(goal_steps):
-        env.render()
+        #env.render()
         if len(prev_obs)==0:
             action = random.randrange(0,2)
         else:
