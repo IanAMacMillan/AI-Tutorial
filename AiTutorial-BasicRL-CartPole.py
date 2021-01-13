@@ -19,7 +19,7 @@ env = build_env(EnvName, EnvType)
 alg_params, learn_params = call_default_params(env, EnvType, AlgName)
 alg = eval(AlgName+'(**alg_params)')
 alg.learn(env=env, mode='train',train_episodes=1000, test_episodes=10, max_steps=400, save_interval=100, render=False)
-alg.learn(env=env, mode='test',train_episodes=1000, test_episodes=10, max_steps=400, save_interval=100, render=True)
+alg.learn(env=env, mode='test',train_episodes=1000, test_episodes=10, max_steps=400, save_interval=100, render=False)
 
 
 
